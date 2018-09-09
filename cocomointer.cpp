@@ -4,7 +4,6 @@
 using namespace std;
 
 int main(){
-    // choice for system 1. organic 2.semidetached 3. embedded
     float values[15][5] = { 0.75,   0.88,   1.00,   1.15,   1.40,
                             1.00,   0.94,   1.00,   1.08,   1.16,
                             0.70,   0.85,   1.00,   1.15,   1.30,
@@ -25,14 +24,22 @@ int main(){
     float kloc;
     int level,ch;
     cout<<"INTERMEDIATE MODEL";
-    cout<<"\nEnter Category of System : \n";
-    cout<<"1. Organic 2. Semidetached 3. Embedded : ";
-    cin>>ch;
+    cout<<"Enter no. of lines of code(KLOC): ";
+    cin>>kloc;
     cout<<"Enter level :\n";
     cout<<"1.Very Low 2.Low 3.Nominal 4.High 5.Very High  : ";
     cin>> level;
-    cout<<"Enter no. of lines of code(KLOC): ";
-    cin>>kloc;
+    cout<<"Category of System : ";
+    if(kloc<50){
+        cout<<"Oraganic";
+        ch = 1;
+    }else if(kloc<300){
+        cout<<"Semidetached";
+        ch = 2;
+    }else{
+        cout<<"Embedded";
+        ch = 3;
+    }
     float a[3] = {2.4,3.0,3.6};
     float b[3] = {1.05,1.12,1.20};
     float effort,prod;
@@ -44,8 +51,8 @@ int main(){
 
     effort = a[ch-1] * pow(kloc,b[ch-1]) * eaf;
     prod = kloc / effort;
-    cout<<"Effort calculated from Basic Model: "<<effort<<endl;
-    cout<<"Productivity calculated from Basic Model: "<<prod<<endl;
+    cout<<"\nEffort calculated from Intermediate Model: "<<effort<<endl;
+    cout<<"Productivity calculated from Intermediate Model: "<<prod<<endl;
 
     return 0;
 }
