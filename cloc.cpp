@@ -11,22 +11,25 @@ int main(int argc,char *argv[]){
 	}
 	ifstream file(filename,ios::in);
 	string line;
-	int i=0;
+	int count=0;
 	while(getline(file,line)){
-		int flag=0;
-		if(line[0] == '/' && line[1] == '/'){
+		bool isValid = true;
+		if(line.length() == 0 ){
+			isValid = false;
 			continue;
 		}
-		int space = 0;
-		for(auto a:line){
-			if(a != ' '){
-				space = 1 ;
-				break;
+		for(int i=0;i<line.length()-1;i++){
+			if(	(line[i] == '/' && line[i+1] == '/') || 
+   				(line[i] == '/' && line[i+1] == '*') || 
+   				(line[i] == '*' && line[i+1] == '/')	) {
+					isValid = false;
+					break;
 			}
 		}
-		if(space == 0) continue;	
-		i++;	
+		if(isValid){
+			count++;
+		}	
 	}
-	cout<<"The \""<<filename<<"\" file contains "<<i<<" lines of code."<<endl;
+	cout<<"The \""<<filename<<"\" file contains "<<count<<" lines of code."<<endl;
 	return 0;
 }
