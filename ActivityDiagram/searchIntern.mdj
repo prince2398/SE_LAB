@@ -59,7 +59,7 @@
 									"top": 36,
 									"width": 337,
 									"height": 18,
-									"text": "User",
+									"text": "Student",
 									"verticalAlignment": 3
 								}
 							],
@@ -93,7 +93,7 @@
 									"top": 36,
 									"width": 400,
 									"height": 18,
-									"text": "internSystem",
+									"text": "System",
 									"verticalAlignment": 3
 								}
 							],
@@ -2285,7 +2285,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFm+9Uek4e+jPU="
 					},
-					"name": "User"
+					"name": "Student"
 				},
 				{
 					"_type": "UMLActivityPartition",
@@ -2293,7 +2293,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFm+9Uek4e+jPU="
 					},
-					"name": "internSystem"
+					"name": "System"
 				}
 			]
 		}

@@ -59,7 +59,7 @@
 									"top": 36,
 									"width": 304,
 									"height": 18,
-									"text": "User",
+									"text": "Student",
 									"verticalAlignment": 3
 								}
 							],
@@ -2059,7 +2059,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFm+/avC04394E="
 					},
-					"name": "User",
+					"name": "Student",
 					"nodes": [
 						{
 							"_type": "UMLInitialNode",

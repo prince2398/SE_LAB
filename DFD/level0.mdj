@@ -99,6 +99,18 @@
 							"subViews": [
 								{
 									"_type": "LabelView",
+									"_id": "AAAAAAFm/pql5DByAw4=",
+									"_parent": {
+										"$ref": "AAAAAAFmrHm0dfIbafE="
+									},
+									"font": "Arial;15;0",
+									"left": 330,
+									"top": 85,
+									"width": 61,
+									"height": 15
+								},
+								{
+									"_type": "LabelView",
 									"_id": "AAAAAAFmsECvXieIhs8=",
 									"_parent": {
 										"$ref": "AAAAAAFmrHm0dfIbafE="
@@ -180,6 +192,18 @@
 							"subViews": [
 								{
 									"_type": "LabelView",
+									"_id": "AAAAAAFm/pql5TB61rI=",
+									"_parent": {
+										"$ref": "AAAAAAFmrHvEWvI3SI0="
+									},
+									"font": "Arial;13;0",
+									"left": 602,
+									"top": 229,
+									"width": 61,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
 									"_id": "AAAAAAFmsECvXyePMHk=",
 									"_parent": {
 										"$ref": "AAAAAAFmrHvEWvI3SI0="
@@ -259,6 +283,18 @@
 								"$ref": "AAAAAAFmrHyLT/JFXkw="
 							},
 							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFm/pql5TCClko=",
+									"_parent": {
+										"$ref": "AAAAAAFmrHyLUfJHAOM="
+									},
+									"font": "Arial;13;0",
+									"left": 42,
+									"top": 229,
+									"width": 61,
+									"height": 13
+								},
 								{
 									"_type": "LabelView",
 									"_id": "AAAAAAFmsECvXyeW7P4=",
@@ -395,17 +431,17 @@
 										"$ref": "AAAAAAFmrH84MvKKQKo="
 									},
 									"font": "Arial;13;0",
-									"left": 135,
-									"top": 207,
-									"width": 88.64501953125,
+									"left": 136,
+									"top": 208,
+									"width": 101.892578125,
 									"height": 13,
-									"alpha": -1.1071495177944106,
-									"distance": 11.180339887498949,
+									"alpha": 4.514992458996533,
+									"distance": 10.198039027185569,
 									"hostEdge": {
 										"$ref": "AAAAAAFmrH84M/KMezc="
 									},
 									"edgePosition": 1,
-									"text": "View Internship"
+									"text": "Search Internship"
 								}
 							],
 							"font": "Arial;13;0",
@@ -441,9 +477,9 @@
 										"$ref": "AAAAAAFmrH84MvKKQKo="
 									},
 									"font": "Arial;13;0",
-									"left": 471,
+									"left": 465,
 									"top": 207,
-									"width": 88.64501953125,
+									"width": 101.892578125,
 									"height": 13,
 									"alpha": -4.331883465341588,
 									"distance": 10.770329614269007,
@@ -451,7 +487,7 @@
 										"$ref": "AAAAAAFmrIXoSfKfjA4="
 									},
 									"edgePosition": 1,
-									"text": "View Internship"
+									"text": "Search Internship"
 								}
 							],
 							"font": "Arial;13;0",
@@ -465,52 +501,6 @@
 							"points": "447:224;592:224",
 							"nameLabel": {
 								"$ref": "AAAAAAFmrIXoSfKgXIY="
-							}
-						},
-						{
-							"_type": "DFDDataFlowView",
-							"_id": "AAAAAAFmrrDRiWGaAmc=",
-							"_parent": {
-								"$ref": "AAAAAAFmq7flFvHRKIs="
-							},
-							"model": {
-								"$ref": "AAAAAAFmrrDRh2GYbEY="
-							},
-							"subViews": [
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAFmrrDRiWGbhBA=",
-									"_parent": {
-										"$ref": "AAAAAAFmrrDRiWGaAmc="
-									},
-									"model": {
-										"$ref": "AAAAAAFmrrDRh2GYbEY="
-									},
-									"font": "Arial;13;0",
-									"left": 247,
-									"top": 147,
-									"width": 79.46630859375,
-									"height": 13,
-									"alpha": -1.5300029927538783,
-									"distance": 49.040799340956916,
-									"hostEdge": {
-										"$ref": "AAAAAAFmrrDRiWGaAmc="
-									},
-									"edgePosition": 1,
-									"text": "Register User"
-								}
-							],
-							"font": "Arial;13;0",
-							"head": {
-								"$ref": "AAAAAAFmrHlYcvINJe4="
-							},
-							"tail": {
-								"$ref": "AAAAAAFmrHm0dfIbafE="
-							},
-							"lineStyle": 2,
-							"points": "336:128;336:176",
-							"nameLabel": {
-								"$ref": "AAAAAAFmrrDRiWGbhBA="
 							}
 						},
 						{
@@ -635,7 +625,7 @@
 										"$ref": "AAAAAAFmrrVawmHR1z4="
 									},
 									"edgePosition": 1,
-									"text": "Get Employer Profile"
+									"text": "Download Details"
 								}
 							],
 							"font": "Arial;13;0",
@@ -671,28 +661,27 @@
 										"$ref": "AAAAAAFmrrXW+GHbsVM="
 									},
 									"font": "Arial;13;0",
-									"left": 464,
-									"top": 239,
+									"left": 465,
+									"top": 240,
 									"width": 109.83984375,
 									"height": 13,
-									"alpha": -4.612721317992635,
-									"distance": 10.04987562112089,
+									"alpha": 4.7123879803846895,
+									"distance": 10,
 									"hostEdge": {
 										"$ref": "AAAAAAFmrrXW/GHdaKg="
 									},
 									"edgePosition": 1,
-									"text": "Get Student Profile"
+									"text": "Add Feedback"
 								}
 							],
 							"font": "Arial;13;0",
 							"head": {
-								"$ref": "AAAAAAFmrHvEWvI3SI0="
-							},
-							"tail": {
 								"$ref": "AAAAAAFmrHlYcvINJe4="
 							},
-							"lineStyle": 2,
-							"points": "447:256;592:256",
+							"tail": {
+								"$ref": "AAAAAAFmrHvEWvI3SI0="
+							},
+							"points": "592:256;447:256",
 							"nameLabel": {
 								"$ref": "AAAAAAFmrrXW/GHeQ4w="
 							}
@@ -788,6 +777,52 @@
 							"nameLabel": {
 								"$ref": "AAAAAAFmrr1zv2IhtD0="
 							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAFm/py/zDDFiqk=",
+							"_parent": {
+								"$ref": "AAAAAAFmq7flFvHRKIs="
+							},
+							"model": {
+								"$ref": "AAAAAAFm/py/yzDDrBk="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFm/py/zDDGBaw=",
+									"_parent": {
+										"$ref": "AAAAAAFm/py/zDDFiqk="
+									},
+									"model": {
+										"$ref": "AAAAAAFm/py/yzDDrBk="
+									},
+									"font": "Arial;13;0",
+									"left": 231,
+									"top": 145,
+									"width": 101.16259765625,
+									"height": 13,
+									"alpha": -4.730904969214213,
+									"distance": 54.00925846556311,
+									"hostEdge": {
+										"$ref": "AAAAAAFm/py/zDDFiqk="
+									},
+									"edgePosition": 1,
+									"text": "Download Details"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFmrHm0dfIbafE="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmrHlYcvINJe4="
+							},
+							"lineStyle": 2,
+							"points": "336:176;336:128",
+							"nameLabel": {
+								"$ref": "AAAAAAFm/py/zDDGBaw="
+							}
 						}
 					]
 				},
@@ -842,7 +877,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFmrHlYcvILV8Y="
 							},
-							"name": "View Internship",
+							"name": "Search Internship",
 							"source": {
 								"$ref": "AAAAAAFmrHlYcvILV8Y="
 							},
@@ -870,7 +905,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFmrHlYcvILV8Y="
 							},
-							"name": "Get Employer Profile",
+							"name": "Download Details",
 							"source": {
 								"$ref": "AAAAAAFmrHlYcvILV8Y="
 							},
@@ -884,12 +919,26 @@
 							"_parent": {
 								"$ref": "AAAAAAFmrHlYcvILV8Y="
 							},
-							"name": "Get Student Profile",
+							"name": "Add Feedback",
+							"source": {
+								"$ref": "AAAAAAFmrHvEWPI1R18="
+							},
+							"target": {
+								"$ref": "AAAAAAFmrHlYcvILV8Y="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAFm/py/yzDDrBk=",
+							"_parent": {
+								"$ref": "AAAAAAFmrHlYcvILV8Y="
+							},
+							"name": "Download Details",
 							"source": {
 								"$ref": "AAAAAAFmrHlYcvILV8Y="
 							},
 							"target": {
-								"$ref": "AAAAAAFmrHvEWPI1R18="
+								"$ref": "AAAAAAFmrHm0dfIZNVs="
 							}
 						}
 					]
@@ -900,23 +949,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFmq7flFvHQ9EI="
 					},
-					"name": "Admin",
-					"ownedElements": [
-						{
-							"_type": "DFDDataFlow",
-							"_id": "AAAAAAFmrrDRh2GYbEY=",
-							"_parent": {
-								"$ref": "AAAAAAFmrHm0dfIZNVs="
-							},
-							"name": "Register User",
-							"source": {
-								"$ref": "AAAAAAFmrHm0dfIZNVs="
-							},
-							"target": {
-								"$ref": "AAAAAAFmrHlYcvILV8Y="
-							}
-						}
-					]
+					"name": "Admin"
 				},
 				{
 					"_type": "DFDExternalEntity",
